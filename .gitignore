@@ -1,5 +1,85 @@
+# C++ build files
+##################
+# Ignore compiled object files
+*.o
+*.obj
+*.so
+*.a
+*.lib
+*.dll
+*.exe
+*.out
+*.app
+
+# Ignore build directories
+build/
 bin/
-obj/
-/packages/
-riderModule.iml
-/_ReSharper.Caches/
+debug/
+release/
+out/
+
+# Ignore IDE-specific folders
+##############################
+.vscode/
+.idea/
+*.swp
+
+# Ignore CMake files
+#####################
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Makefile
+*.cmake
+*.mk
+
+# Visual Studio
+#################
+.vs/
+.vscode/
+.vsconfig
+# User-specific files
+.vs2019/
+*.user
+*.userosscache
+*.suo
+*.sdf
+*.db
+
+# IntelliJ IDEA and Rider
+##########################
+.idea/
+*.iml
+out/
+
+# Python files
+################
+# Bytecode files
+*.pyc
+*.pyo
+__pycache__/
+
+# Virtualenv/venv
+venv/
+env/
+*.egg-info/
+
+# Distribution / packaging
+############################
+*.egg
+*.tar.gz
+*.whl
+*.dist-info/
+*.pip/
+
+# Jupyter Notebook checkpoints
+################################
+.ipynb_checkpoints/
+
+# General IDE files
+####################
+*.sublime-workspace
+*.sublime-project
+
+# Operating system files
+##############
